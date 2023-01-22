@@ -16,7 +16,7 @@ This is HTML and Sass to create Linktree clone,
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Fawkes73/social-media-links.git
 ```
 
 Go to the project directory
