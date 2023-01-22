@@ -14,11 +14,18 @@ margin: 0;
 padding: 0;
 font-family:"Inter", sans-serif;
 background-repeat: no-repeat;
-overflow: hidden;
+overflow: auto;
 display: flex;
 align-items: center;
 flex-direction: column;
 width: 100vw;
+scroll-behavior: auto;
+}
+
+header{
+
+  display: flex;
+  justify-content: flex-start;
 }
 
 .gradient-northern-lights {
@@ -45,6 +52,8 @@ width: 100vw;
 
 
 .container{
+  z-index: 1;
+  top: 50%;
   width: 91%;
   height: 651px;
   border-radius: 10px;
@@ -52,6 +61,7 @@ width: 100vw;
   flex-direction: column;
   align-items: center;
   background-color: #ffffff;
+  position: relative;
 }
 
 .image-container{
@@ -83,11 +93,25 @@ header{
   height: 40px;
   border-radius: 20px;
   background-color: $whity;
+  position: absolute;
+  right: 2%;
+}
+@media only screen and (max-width: 600px) {
+  .share-button {
+    right: 10px; /* changes the left property value for smaller screens */
+  }
+  .featured-image {
+    position: relative; /* changes the position for smaller screens */
+    margin: 0 auto;
+    width:40%; 
+    height:  40%;/* changes the width property value for smaller screens */
+  }
 }
 
 .share-button svg{
-  margin-left: 7.5px;
+  margin-left: 9.5px;
   margin-top: 5px;
+  
 }
 
 h1{
@@ -141,3 +165,23 @@ a {
   width: 44px;
   height: 44px;
 }
+
+.featured-image {
+  z-index: 2;
+  position:relative;
+  top: 10%;
+  
+  overflow:hidden;
+  width: 100%;
+  height: 50%;
+  display: flex; 
+  justify-content: center;
+  opacity: 0.6;
+}
+
+.container-two{
+  overflow: hidden;
+  display: flex;
+  
+}
+
