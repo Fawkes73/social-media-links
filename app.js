@@ -1,11 +1,11 @@
 const shareButtons = document.querySelectorAll('.tile-share-button')
-console.log(shareButtons)
+
 
 async function copyText(e) {
 //prevent button going to the site
     e.preventDefault()
     const link = this.getAttribute('link')
-    console.log(link)
+   
     try {
         await navigator.clipboard.writeText(link)
         alert("Copied the text: " + link)
@@ -27,7 +27,7 @@ async function copyTexts() {
 
   
   const alink = this.getAttribute('alink')
-  console.log(alink)
+ 
   try {
       await navigator.clipboard.writeText(alink)
       alert("Copied the text: " + alink)
@@ -37,7 +37,6 @@ async function copyTexts() {
   }
 
 }
-console.log(allshareButton)
 
 allshareButton.addEventListener('click', copyTexts);
 
