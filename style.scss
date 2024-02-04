@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap");
+
+$primary-color: #131086;
+$seconadry-color:#b621f3;
+$first-color:#ff00d4;
+$second-color:#0c0585;
+$third-color:#0a0840;
+$fourth-color:#6a0085;
+$whity: #ffffff;
+$titles-color: #262640;
+
+body{
+margin: 0;
+padding: 0;
+font-family:"Inter", sans-serif;
+background-repeat: no-repeat;
+overflow: auto;
+display: flex;
+align-items: center;
+flex-direction: column;
+width: 100vw;
+scroll-behavior: auto;
+}
+
+header{
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+.gradient-northern-lights {
+  background: linear-gradient(to right, #0a0840, #6a0085, #0c0585, #ff00d4);
+  background-size: 400% 400%;
+  animation: aurora 15s ease-in-out infinite;
+}
+
+@keyframes aurora {
+  0% {
+    background-position: 0% 50%;
+  }
+  
+  100% {
+    background-position: 100% 50%;
+  }
+  200% {
+    background-position: 0% 50%;
+  }
+  300% {
+    background-position: 100% 50%;
+  }
+}
+
+
+.container{
+  z-index: 1;
+  top: 50%;
+  width: 91%;
+  height: 651px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.image-container{
+  height: 96px;
+  width: 96px;
+  border-radius: 48px;
+  overflow: hidden;
+  
+}
+
+.image-container img{
+  
+
+  height: 100%;
+  
+}
+
+header{
+  width: 95%;
+  max-width: 788px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px;
+  margin-top: 15px;
+}
+
+.share-button{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: $whity;
+  position: absolute;
+  right: 2%;
+}
+@media only screen and (max-width: 600px) {
+  .share-button {
+    right: 10px; /* changes the left property value for smaller screens */
+  }
+  .featured-image {
+    position: relative; /* changes the position for smaller screens */
+    margin: 0 auto;
+    width:40%; 
+    height:  40%;/* changes the width property value for smaller screens */
+  }
+}
+
+.share-button svg{
+  margin-left: 9.5px;
+  margin-top: 5px;
+  
+}
+
+h1{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.tile{
+  width: 97%;
+  height: 57px;
+  background:linear-gradient(45deg, $second-color,$fourth-color) ;
+  display: flex;
+  justify-content: space-between;
+  margin: 7px;
+  border-radius: 17px;
+}
+
+.tile:hover{
+
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+  transform: scale(1.02);
+}
+
+.tile-share-button{
+  margin: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.tile-share-button svg{
+  margin-left: 7.5px;
+  margin-top: 5px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.icon{
+  margin: 4px 8px;
+  width: 44px;
+  height: 44px;
+}
+
+.featured-image {
+  z-index: 2;
+  position:relative;
+  top: 10%;
+  
+  overflow:hidden;
+  width: 100%;
+  height: 50%;
+  display: flex; 
+  justify-content: center;
+  opacity: 0.6;
+}
+
+.container-two{
+  overflow: hidden;
+  display: flex;
+  
+}
+
