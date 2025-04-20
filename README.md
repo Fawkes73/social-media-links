@@ -67,14 +67,6 @@ Replace the placeholder href="#" links with your own URLs
 
 Add or remove icons as needed from the template
 
-## Example:
-
-html
-Copy
-Edit
-<a href="https://github.com/your-username" target="_blank">
-  <i class="fab fa-github"></i> GitHub
-</a>
 
 
 ## 🌐 Deploy on GitHub Pages (Free Hosting)
