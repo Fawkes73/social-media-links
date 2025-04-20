@@ -1,18 +1,33 @@
-# Social Media Links (custom clone linktree)
+# 🚀 Social Media LinkHub (Linktree Clone)
 
-This is HTML and Sass to create Linktree clone,
-Personalized landing page for all your links - share your
-social media profiles, portfolio, blog, and
-more in one place.
+A clean, customizable, and responsive landing page to showcase all your important links — portfolio, blog, resume, social profiles — all in one place.
 
-## Authors
+Built using **HTML** and **SASS**, this project is perfect for anyone looking to quickly create a personal Linktree-style hub — free and open source.
 
-- [Mandar] (https://github.com/Fawkes73)
+---
 
-## Screenshots
+## ✨ Features
+
+- Responsive design for mobile & desktop
+- Smooth animations & clean layout
+- Easy to customize social links
+- Free deployment via GitHub Pages
+- No third-party services or fees
+
+---
+
+## 👨‍💻 Author
+
+- [Mandar (Fawkes73)](https://github.com/Fawkes73)
+
+---
+
+## 📸 Preview Screenshots
 
 ![screenshot](./public/preview.png)
 
+
+---
 ## Run Locally
 
 Clone the project
@@ -38,6 +53,49 @@ Start the server
 ```bash
   click on the Go Live button on the bottom right side of VS Code
 ```
+
+
+## 
+🎯 Customize Your Links
+
+
+To add your own social/media links:
+
+Open index.html
+
+Replace the placeholder href="#" links with your own URLs
+
+Add or remove icons as needed from the template
+
+## Example:
+
+html
+Copy
+Edit
+<a href="https://github.com/your-username" target="_blank">
+  <i class="fab fa-github"></i> GitHub
+</a>
+
+
+## 🌐 Deploy on GitHub Pages (Free Hosting)
+
+- Push your project to a GitHub repository
+
+- Go to the repository Settings → Pages
+
+- Under Source, select:
+
+- Branch: main (or master)
+
+- Folder: /root or /docs (depending on setup)
+
+= Save → Wait for GitHub to deploy
+
+
+
+## Your site will be live at:
+https://your-username.github.io/repo-name/
+
 
 ## License
 
