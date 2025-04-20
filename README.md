@@ -1,15 +1,17 @@
-
 # Social Media Links (custom clone linktree)
 
 This is HTML and Sass to create Linktree clone,
- Personalized landing page for all your links - share your
-  social media profiles, portfolio, blog, and 
-  more in one place.
+Personalized landing page for all your links - share your
+social media profiles, portfolio, blog, and
+more in one place.
 
 ## Authors
 
 - [Mandar](https://github.com/Fawkes73)
 
+## Screenshots
+
+![App Screenshot](./public/social media link tray.png)
 
 ## Run Locally
 
@@ -37,12 +39,6 @@ Start the server
   click on the Go Live button on the bottom right side of VS Code
 ```
 
-
-## Screenshots
-
-![App Screenshot](https://github.com/Fawkes73/Medical-DAPP-About-page/blob/main/projet%20image.png/468x300?text=App+Screenshot+Here)
-
-
 ## License
 
 MIT License
@@ -54,4 +50,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
