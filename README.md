@@ -7,7 +7,7 @@ more in one place.
 
 ## Authors
 
-- [Mandar](https://github.com/Fawkes73)
+- [Mandar] (https://github.com/Fawkes73)
 
 ## Screenshots
 
