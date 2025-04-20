@@ -55,8 +55,7 @@ Start the server
 ```
 
 
-## 
-🎯 Customize Your Links
+## 🎯 Customize Your Links
 
 
 To add your own social/media links:
