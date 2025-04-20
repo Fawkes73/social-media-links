@@ -11,7 +11,7 @@ more in one place.
 
 ## Screenshots
 
-![App Screenshot](./public/social media link tray.png)
+![App Screenshot] (./social-media-link-tray.png)
 
 ## Run Locally
 
